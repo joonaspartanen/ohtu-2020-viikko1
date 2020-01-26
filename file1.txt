@@ -1,2 +1,0 @@
-A small change in the file.
-Testing git add -p again
