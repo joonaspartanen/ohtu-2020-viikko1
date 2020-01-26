@@ -1,5 +1,5 @@
-/.settings
-/.vscode
+/.settings/
+/.vscode/
 /*.tmp
 /build/
 /.gradle/
