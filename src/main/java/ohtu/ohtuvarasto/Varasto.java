@@ -42,7 +42,8 @@ public class Varasto {
 
     // --- asettavat aksessorit eli setterit: ---
     public void lisaaVarastoon(double maara) {
-        if (maara < 0) {
+        if (maara < 0) 
+        {
             return; // tällainen pikapoistuminenkin!
         }
         if (maara <= paljonkoMahtuu()) {
