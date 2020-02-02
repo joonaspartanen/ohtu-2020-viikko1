@@ -1,7 +1,9 @@
-# About
+# OHTU 2020
 
 [![CircleCI](https://circleci.com/gh/joonaspartanen/ohtu-2020-viikko1.svg?style=svg)](https://circleci.com/gh/joonaspartanen/ohtu-2020-viikko1)
 [![codecov](https://codecov.io/gh/joonaspartanen/ohtu-2020-viikko1/branch/master/graph/badge.svg)](https://codecov.io/gh/joonaspartanen/ohtu-2020-viikko1)
+
+## About
 
 Submissions for the Helsinki University course Ohjelmistotuotanto 2020
 
