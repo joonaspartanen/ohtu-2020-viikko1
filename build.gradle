@@ -29,11 +29,11 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'ohtu.ohtuvarasto.Main'
+mainClassName = 'main.Main'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
+        attributes 'Main-Class': 'main.Main'
     }
 }
 
@@ -42,4 +42,11 @@ jacocoTestReport {
         xml.enabled true
         html.enabled true
     }
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it,
+                    exclude: ['main/**'])
+        }))
+    }
 }
+
